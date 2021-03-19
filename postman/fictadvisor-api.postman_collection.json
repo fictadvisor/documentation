@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "d28dbb2c-c01f-423e-9319-3b629fd79d20",
+		"name": "fictadvisor-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Teacher",
+			"item": [
+				{
+					"name": "Get a teacher",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/teachers/:link",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"teachers",
+								":link"
+							],
+							"variable": [
+								{
+									"key": "link",
+									"value": "lisovichenko-oleg-ivanovich"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get teachers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/teachers?page=1&page_size=10",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"teachers"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "page_size",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "http://127.0.0.1:3000"
+		}
+	]
+}
