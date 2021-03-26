@@ -1,3 +1,5 @@
+# Human-readable links
+
 Let's say `slug(x)` is a function that takes a string input and returns a URL-safe human readable slug.
 
 Current implementation of `slug` function should be provided by [slugify](https://www.npmjs.com/package/slugify) npm package with following settings:
@@ -6,26 +8,25 @@ Current implementation of `slug` function should be provided by [slugify](https:
 slug(x) = slugify(x, { replacement: '-', lower: true })
 ```
 
-**Link generation rules:**
+### General link generation rules
 
 On duplicates, an increment should be added to the end of the link. Example: `lisovichenko-oleg-ivanovich-1`.
 
-**Subject**
+### Subject
 
 Subject.link = `slug(Subject.name)`
 
+### Teacher
 
-**Teacher**
-
-Teacher has a middle name:
+**With a middle name:**
 
 Teacher.link = `slug(Teacher.last_name + " " + Teacher.first_name + " " + Teacher.middle_name)`
 
-Other:
+**Without a middle name:**
 
 Teacher.link = `slug(Teacher.last_name + " " + Teacher.first_name)`
 
-**Course**
+### Course
 
 Course.link = `Subject.link + "-" + Teacher.link`
 
