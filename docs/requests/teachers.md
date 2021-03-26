@@ -1,4 +1,5 @@
-[**GET** /teachers `DONE`](#teachers)
+
+#### GET /teachers 
 
 Returns a list of teachers. Supports:
  - pagination
@@ -31,7 +32,7 @@ Returns a list of teachers. Supports:
 
 ---
 
-**GET** /teachers/*:link* `DONE`
+#### GET /teachers/*:link*
 
 Returns a detailed information about the teacher.
 
