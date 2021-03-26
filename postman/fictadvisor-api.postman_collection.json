@@ -38,7 +38,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/teachers?page=1&page_size=10",
+							"raw": "{{URL}}/teachers?page=1&page_size=10&search=ліс",
 							"host": [
 								"{{URL}}"
 							],
@@ -53,6 +53,10 @@
 								{
 									"key": "page_size",
 									"value": "10"
+								},
+								{
+									"key": "search",
+									"value": "ліс"
 								}
 							]
 						}
