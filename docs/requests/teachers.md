@@ -138,6 +138,8 @@ Returns a list of reviews. Supports:
             "id": "$id",
             "content": "$content",
             "course": {
+                "id": "$id",
+                // it should be equal to Subject.name right now, in future it might change
                 "name": "$course.name",
                 "link": "$course.link"
             },
