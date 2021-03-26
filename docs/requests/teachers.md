@@ -61,7 +61,7 @@ Returns a detailed information about the teacher.
 
 ---
 
-**GET** /teachers/*:link*/courses
+#### GET /teachers/*:link*/courses
 
 Returns a list of courses. Supports:
  - pagination
@@ -96,7 +96,7 @@ Returns a list of courses. Supports:
 
 ---
 
-**GET** /teachers/*:link*/contacts
+#### GET /teachers/*:link*/contacts
 
 Returns a list of contacts.
 
@@ -116,7 +116,7 @@ Returns a list of contacts.
 
 ---
 
-**GET** /teachers/*:link*/reviews
+#### GET /teachers/*:link*/reviews
 
 Returns a list of reviews. Supports:
  - pagination
@@ -151,7 +151,7 @@ Returns a list of reviews. Supports:
 
 ---
 
-**GET** /teachers/*:link*/stats
+#### GET /teachers/*:link*/stats
 
 Returns a list of stats from "ФИВТ им. Веры Петровны".
 

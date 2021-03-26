@@ -1,4 +1,4 @@
-**GET** /student-resources `DONE`
+#### GET /student-resources
 
 Returns a list of student resources. Supports:
  - pagination
