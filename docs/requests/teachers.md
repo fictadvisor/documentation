@@ -113,6 +113,8 @@ Returns a list of contacts.
 }
 ```
 
+---
+
 **GET** /teachers/*:link*/reviews
 
 Returns a list of reviews. Supports:
