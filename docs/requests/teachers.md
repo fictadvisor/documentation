@@ -1,4 +1,4 @@
-**GET** /teachers `DONE`
+[**GET** /teachers `DONE`](#teachers)
 
 Returns a list of teachers. Supports:
  - pagination
