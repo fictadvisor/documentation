@@ -52,14 +52,14 @@ Returns information about the subject.
 
 Returns a list of courses. Supports:
  - pagination
- - searching by name
- - sorting by rating (DESC) and name (ASC)
+ - searching by teacher's full name
+ - sorting by rating (DESC) and lastName (ASC)
 
 **Query:**
  - page
  - page_size
  - search
- - sort - `rating` (default), `name`
+ - sort - `rating` (default), `lastName`
 
 **Response:**
 ```js
