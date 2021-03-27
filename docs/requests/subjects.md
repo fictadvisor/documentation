@@ -3,13 +3,13 @@
 Returns a list of subjects. Supports:
  - pagination
  - searching by name
- - sorting by rating (DESC) and teacher count (DESC)
+ - sorting by rating (DESC), name (ASC) and teacher count (DESC)
 
 **Query:**
  - page
  - page_size
  - search
- - sort - `rating` (default), `teacherCount`
+ - sort - `rating` (default), `name`, `teacherCount`
 
 **Response:**
 ```js
